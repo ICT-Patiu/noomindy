@@ -1,12 +1,12 @@
 /* Base Styles & Variables */
 :root {
     --color-bg-primary: #FFFFFF;
-    --color-bg-secondary: #FAFAFA;
-    --color-bg-accent: #FDFBF7; /* Cream */
-    --color-text-main: #333333;
-    --color-text-light: #666666;
-    --color-primary: #D4B895; /* Warm tone for minimalist aesthetic */
-    --color-primary-hover: #C4A47E;
+    --color-bg-secondary: #FFF7F9; /* Very faint sweet pink */
+    --color-bg-accent: #FFEBF0; /* Soft blush pink */
+    --color-text-main: #4A3B40; /* Warmer dark text for a sweet vibe */
+    --color-text-light: #837176;
+    --color-primary: #F2A4B3; /* Sweet pastel pink */
+    --color-primary-hover: #E08A9B;
     
     --font-main: 'Prompt', sans-serif;
     
@@ -82,13 +82,13 @@ p {
 .btn-primary {
     background-color: var(--color-primary);
     color: #fff;
-    box-shadow: 0 4px 15px rgba(212, 184, 149, 0.3);
+    box-shadow: 0 4px 15px rgba(242, 164, 179, 0.3);
 }
 
 .btn-primary:hover {
     background-color: var(--color-primary-hover);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(212, 184, 149, 0.4);
+    box-shadow: 0 6px 20px rgba(242, 164, 179, 0.4);
 }
 
 .btn-outline {
@@ -312,7 +312,7 @@ p {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-primary);
-    background-color: rgba(212, 184, 149, 0.1);
+    background-color: rgba(242, 164, 179, 0.15);
     padding: 4px 16px;
     border-radius: 50px;
 }
