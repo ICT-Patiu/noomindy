@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านของดีดี - ร้านนมสดสไตล์มินิมอล (Khong Dee Dee)</title>
+    <meta name="description" content="ร้านนมสด 'ร้านของดีดี' บรรยากาศน่านั่ง เมนูอร่อยหลากหลาย พร้อมให้บริการ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <img src="assets/images/logo/logo.png" alt="ร้านของดีดี โลโก้" class="nav-logo">
+            <ul class="nav-links">
+                <li><a href="#hero" data-i18n="navHome">หน้าแรก</a></li>
+                <li><a href="#menu" data-i18n="navMenu">เมนูแนะนำ</a></li>
+                <li><a href="#vibe" data-i18n="navVibe">บรรยากาศ</a></li>
+                <li><a href="#contact" data-i18n="navContact">ติดต่อเรา</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="th">TH</button>
+                <span class="lang-divider">|</span>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <img src="assets/images/logo/logo.png" alt="ร้านของดีดี โลโก้" class="hero-logo animate-up">
+            <h1 class="animate-up delay-1" data-i18n="heroTitle">เริ่มต้นวันดีๆ ด้วยนมสดหอมกรุ่น</h1>
+            <p class="animate-up delay-2" data-i18n="heroSubtitle">ความสุขเล็กๆ ที่เราตั้งใจเสิร์ฟให้คุณในทุกวัน</p>
+            <a href="#menu" class="btn btn-primary animate-up delay-3" data-i18n="heroBtn">ดูเมนูของเรา</a>
+        </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 data-i18n="menuTitle">เมนูยอดฮิต</h2>
+                <p data-i18n="menuSubtitle">คัดสรรความอร่อยมาเพื่อคุณโดยเฉพาะ</p>
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-item fade-in">
+                    <img src="assets/images/menu/menu-1.jpg" alt="เมนู 1">
+                    <div class="menu-info">
+                        <h3 data-i18n="menu1Title">นมสดเย็น</h3>
+                        <p data-i18n="menu1Desc">หอมมัน สดชื่น ดื่มง่ายคลายร้อน</p>
+                    </div>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="assets/images/menu/menu-2.jpg" alt="เมนู 2">
+                    <div class="menu-info">
+                        <h3 data-i18n="menu2Title">นมคาราเมล</h3>
+                        <p data-i18n="menu2Desc">หวานละมุน หอมกลิ่นคาราเมล</p>
+                    </div>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="assets/images/menu/menu-3.jpg" alt="เมนู 3">
+                    <div class="menu-info">
+                        <h3 data-i18n="menu3Title">นมชมพู</h3>
+                        <p data-i18n="menu3Desc">หวานหอม ชื่นใจ สไตล์วัยหวาน</p>
+                    </div>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="assets/images/menu/menu-4.jpg" alt="เมนู 4">
+                    <div class="menu-info">
+                        <h3 data-i18n="menu4Title">ปังปิ้งเนยนม</h3>
+                        <p data-i18n="menu4Desc">ขนมปังปิ้งกรอบนอกนุ่มใน ชุ่มฉ่ำเนยนม</p>
+                    </div>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="assets/images/menu/menu-5.jpg" alt="เมนู 5">
+                    <div class="menu-info">
+                        <h3 data-i18n="menu5Title">ปังเย็น</h3>
+                        <p data-i18n="menu5Desc">เกล็ดน้ำแข็งเย็นชื่นใจ ท็อปปิ้งจุกๆ</p>
+                    </div>
+                </div>
+                <div class="menu-item fade-in">
+                    <img src="assets/images/menu/menu-6.jpg" alt="เมนู 6">
+                    <div class="menu-info">
+                        <h3 data-i18n="menu6Title">ชาไทย</h3>
+                        <p data-i18n="menu6Desc">เข้มข้น หอมชาไทยแท้ๆ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vibe & Atmosphere -->
+    <section id="vibe" class="vibe-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 data-i18n="vibeTitle">บรรยากาศร้าน</h2>
+                <p data-i18n="vibeSubtitle">พื้นที่โปร่งโล่ง สบายตา เหมาะสำหรับวันพักผ่อนของคุณ</p>
+            </div>
+            
+            <div class="vibe-grid">
+                <div class="vibe-item large fade-in"><img src="assets/images/atmosphere/atmosphere-1.jpg" alt="บรรยากาศร้าน 1"></div>
+                <div class="vibe-item fade-in"><img src="assets/images/atmosphere/atmosphere-2.jpg" alt="บรรยากาศร้าน 2"></div>
+                <div class="vibe-item fade-in"><img src="assets/images/atmosphere/atmosphere-3.jpg" alt="บรรยากาศร้าน 3"></div>
+                <div class="vibe-item fade-in"><img src="assets/images/atmosphere/atmosphere-4.jpg" alt="บรรยากาศร้าน 4"></div>
+                <div class="vibe-item fade-in"><img src="assets/images/atmosphere/atmosphere-5.jpg" alt="บรรยากาศร้าน 5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer & Contact -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-info fade-in">
+                <img src="assets/images/logo/logo.png" alt="ร้านของดีดี โลโก้" class="footer-logo">
+                <p data-i18n="footerDesc">ร้านนมสดสไตล์มินิมอล เติมความหวานให้ทุกวันของคุณ</p>
+            </div>
+            <div class="footer-contact fade-in delay-1">
+                <h3 data-i18n="footerTimeTitle">เวลาทำการ</h3>
+                <p data-i18n="footerTime">เปิดบริการทุกวัน: 10:00 น. - 20:00 น.</p>
+                <h3 data-i18n="footerContactTitle">ติดต่อเรา</h3>
+                <p data-i18n="footerContact">โทร: 080-123-4567</p>
+            </div>
+            <div class="footer-action fade-in delay-2">
+                <a href="#" class="btn btn-outline" data-i18n="footerBtnMap">ดูแผนที่</a>
+                <a href="#" class="btn btn-primary" data-i18n="footerBtnDel">สั่งเดลิเวอรี่</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Khong Dee Dee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
