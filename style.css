@@ -306,6 +306,17 @@ p {
     margin-bottom: 0;
 }
 
+.menu-price {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    background-color: rgba(212, 184, 149, 0.1);
+    padding: 4px 16px;
+    border-radius: 50px;
+}
+
 /* Vibe & Atmosphere */
 .vibe-section {
     padding: 8rem 0;
